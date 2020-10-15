@@ -1,0 +1,20 @@
+.theme-light {
+    --primary-color: red;
+    --bg-global: #fafafa;
+    --text-global: #242424;
+}
+
+.theme-dark {
+    --primary-color: green;
+    --bg-global: #121212;
+    --text-global: #fafafa;
+}
+
+body {
+    background-color: var(--bg-global);
+    color: var(--text-global);
+}
+
+.font-primary {
+    color: var(--primary-color);
+}
