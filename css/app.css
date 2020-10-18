@@ -10,6 +10,12 @@
     --text-global: #fafafa;
 }
 
+.theme-halloween {
+    --primary-color: #7B341E;
+    --bg-global: #ED8936;
+    --text-global: #2D3748;
+}
+
 body {
     background-color: var(--bg-global);
     color: var(--text-global);
